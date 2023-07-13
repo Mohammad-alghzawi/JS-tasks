@@ -20,13 +20,14 @@ Output : The sign is - */
 let a =3
 let w =-7
 let s =2
+let pro = a*w*s
 if( a > 0 ){
     console.log("positive")
-    alert("positive")
 }
 else{
     console.log("negative")
 }
+alert(pro)
 
 
 

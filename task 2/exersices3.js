@@ -7,9 +7,9 @@ for(let i=1; i<=10; i++){
    var arr = [13,23,12,45,22,48,66,100]
 */
 var arr = [13,23,12,45,22,48,66,100]
-for(i=0; i<arr.length;i++){
+for(let i=0; i<arr.length;i++){
    if(arr[i]%2==0){
-      console.log(arr[1]);
+      console.log(arr[i]);
    }
 }
 /* 
@@ -29,9 +29,10 @@ let arrr ,  pattern;
 pattern=" ";
 arrr =[1, 2, 3, 4 ,5 ,6 ,7 ,8 ];
 for (let i = 0; i < arrr.length; i++){
-   pattern +=   +arrr[i].toString()+"" ;
+   // pattern +=   arrr[i].toString() ;
+   pattern = pattern + arrr[i].toString();
    document.write("<br>")
-   document.write( + pattern);
+   document.write(  pattern);
 }
  /* 
  Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.

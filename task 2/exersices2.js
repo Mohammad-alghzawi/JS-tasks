@@ -6,24 +6,36 @@ equal or between 70 and 79 ===> C
 equal or between 80 and 89 ===> B
 equal or between 90 and 100 ===> A
 */
-switch (f = 50){
-  case f<50:
-    console.log("fail");
-    break;
-case f>=50&&f<=59:
-    console.log("E");
-    break;
-case f>=60&&f<=69:
-    console.log("D");
-    break;
-case f>=70&&f<=79:
-    console.log("C");
-         break;
-case f>=80&&f<=89:
-    console.log("B");
-        break;
-case f>=90&&f<=100:
-    console.log("A")
-        break;
+
+
+let grade = 50;
+
+let result;
+
+if(grade < 50){ 
+    result = "Fail";
 }
+
+else if (grade <= 59) {
+    result = "E";
+}
+
+else if (grade <= 69) {
+    result = "D";
+}
+
+else if (grade <= 79) {
+    result = "C";
+}
+
+else if (grade <= 89) {
+    result = "B";
+}
+
+else if (grade <= 100) {
+    result = "A";
+}
+
+console.log(result);
+
 

@@ -4,9 +4,9 @@
 let num = 5;
 let num1 = 7;
 if (num1 > num) {
-  console.log(num1);
+  console.log(true);
 } else {
-  console.log(num);
+  console.log(false);
 }
 
 /******* End Your Code ********* */
@@ -20,14 +20,13 @@ Output : The sign is - */
 let a =3
 let w =-7
 let s =2
-let pro = a*w*s
-if( a > 0 ){
-    console.log("positive")
+if(a*w*s > 0){
+    alert("positive")
 }
 else{
-    console.log("negative")
+    alert("negative")
 }
-alert(pro)
+
 
 
 

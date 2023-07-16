@@ -25,22 +25,33 @@ for(let i=0; i<arr.length;i++){
    1 2 3 4 5 6 7 8 
 
 */
-let arrr ,  pattern;
-pattern=" ";
-arrr =[1, 2, 3, 4 ,5 ,6 ,7 ,8 ];
-for (let i = 0; i < arrr.length; i++){
-   // pattern +=   arrr[i].toString() ;
-   pattern = pattern + arrr[i].toString();
-   document.write("<br>")
-   document.write(  pattern);
-}
+const arr2=[1,2,3,4,5,6,7,8];
+console.log(arr2[0]);
+console.log(arr2[0],arr2[1]);
+console.log(arr2[0],arr2[1],arr2[2]);
+console.log(arr2[0],arr2[1],arr2[2],arr2[3]);
+console.log(arr2[0],arr2[1],arr2[2],arr2[3]);
+console.log(arr2[0],arr2[1],arr2[2],arr2[3],arr2[4]);
+console.log(arr2[0],arr2[1],arr2[2],arr2[3],arr2[4],arr2[5]);
+console.log(arr2[0],arr2[1],arr2[2],arr2[3],arr2[4],arr2[5],arr2[6]);
+console.log(arr2[0],arr2[1],arr2[2],arr2[3],arr2[4],arr2[5],arr2[6],arr2[7]);
+ 
+// for(let a=1 ; a<=8 ; a++){
+//     let sol = " "; 
+//     for(let b=1 ; b<=a ; b++){
+//         sol += b + " ";
+//     }
+//     console.log(sol);
+// }
  /* 
  Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.
 let x = "dont know why";
 */
 let x = "dont know why";
-let result = x.includes("y");
-if(result)
-console.log("yes");
-else
-console.log("no");
+if(x.includes("y")){
+   console.log("yes");
+}
+
+else{
+   console.log("no");
+}

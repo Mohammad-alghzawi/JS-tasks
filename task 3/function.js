@@ -569,3 +569,4 @@ console.log(`${count} and the counter reset now`)
 resetCounter();
 resetCounter();
 resetCounter();
+

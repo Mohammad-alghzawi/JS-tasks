@@ -8,34 +8,41 @@ equal or between 90 and 100 ===> A
 */
 
 
-let grade = 50;
+let mark = 80;
+switch (true) {
+    case (mark < 50):
+        
+            console.log('Fail');
+            break;
+        
 
-let result;
+    case (mark <= 59):
+        
+            console.log('E');
+            break;
+        
 
-if(grade < 50){ 
-    result = "Fail";
+    case (mark <= 69):
+        
+            console.log('D');
+            break;
+        
+
+    case (mark <= 79):
+        
+            console.log('C');
+            break;
+        
+
+    case (mark <= 89):
+        
+            console.log('B');
+            break;
+        
+
+    case (mark <= 100):
+        
+            console.log('A');
+            break;
+        
 }
-
-else if (grade <= 59) {
-    result = "E";
-}
-
-else if (grade <= 69) {
-    result = "D";
-}
-
-else if (grade <= 79) {
-    result = "C";
-}
-
-else if (grade <= 89) {
-    result = "B";
-}
-
-else if (grade <= 100) {
-    result = "A";
-}
-
-console.log(result);
-
-

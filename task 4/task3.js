@@ -29,3 +29,18 @@ button.addEventListener("click", function() {
 image.style.width = "200px";
 // Show div in the page body
 document.body.appendChild(div);
+
+
+
+
+// let select=document.getElementById("mhm");
+// let ham=document.getElementById("ham")
+
+// select.addEventListener("change",function() {
+//     if(select.value=="Jordan"){
+//         ham.src="jordan flag.png"
+//     }else{
+//         ham.src="pelestine flaf.png"
+//     }
+
+// })
